@@ -1,0 +1,28 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "Test work for Brooma",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisonepiece/notebook.git"
+  },
+  "author": "Denis Mitryakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisonepiece/notebook/issues"
+  },
+  "homepage": "https://github.com/denisonepiece/notebook#readme",
+  "dependencies": {
+    "angular": "1.7.x",
+    "angular-route": "^1.7.9",
+    "ngstorage": "^0.3.11",
+    "bootstrap": "3.3.x"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "http-server": "^0.11.1"
+  }
+}
