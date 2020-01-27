@@ -14,14 +14,8 @@
     "postupdate-deps": "npm run copy-libs",
     "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,jquery/dist,ngstorage}/**/*\" app/lib -C",
     "prestart": "npm install",
-    "start": "http-server ./app -a localhost -p 8000 -c-1",
-    "pretest": "npm install",
-    "test": "karma start karma.conf.js",
-    "test-single-run": "npm test -- --single-run",
-    "preupdate-webdriver": "npm install",
-    "update-webdriver": "webdriver-manager update",
-    "preprotractor": "npm run update-webdriver",
-    "protractor": "protractor e2e-tests/protractor.conf.js"
+    "start": "static app -a localhost -p 8000 -c-1",
+    "pretest": "npm install"
   },
   "dependencies": {
     "angular": "1.7.x",
@@ -31,6 +25,7 @@
   },
   "devDependencies": {
     "cpx": "^1.5.0",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "node-static": "^0.7.11"
   }
 }
