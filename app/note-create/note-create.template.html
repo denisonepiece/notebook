@@ -1,0 +1,13 @@
+<form class="note-create form-group">
+  <div class="input">
+    <span class="label">Название</span>
+    <input required class="form-control" type="text" ng-model="note.title">
+  </div>
+  <div class="input">
+    <span class="label">Содержание</span>
+    <input required class="form-control" type="text" ng-model="note.text">
+  </div>
+
+  <button class="btn btn-primary btn-save" ng-click="save()">Сохранить</button>
+  <a href="#!/notes" class="btn btn-danger btn-save">Отменить</a>
+</form>

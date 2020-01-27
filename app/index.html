@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru" ng-app="notebookApp">
+<head>
+  <meta charset="utf-8">
+  <title>Notebook</title>
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <div ng-view></div>
+  </div>
+
+<!--Angular.js scripts start-->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-route/angular-route.js"></script>
+<script src="app.module.js"></script>
+<script src="app.config.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js"></script>
+
+<script src="note-create/note-create.module.js"></script>
+<script src="note-create/note-create.component.js"></script>
+<script src="note-item/note-item.module.js"></script>
+<script src="note-item/note-item.component.js"></script>
+<script src="note-list/note-list.module.js"></script>
+<script src="note-list/note-list.component.js"></script>
+<!--Angular.js scripts end-->
+</body>
+</html>

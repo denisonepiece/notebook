@@ -1,0 +1,9 @@
+<input class="input-search form-control" placeholder="Поиск..." ng-model="$ctrl.query"/>
+<ul class="notes">
+  <li ng-repeat="note in $ctrl.notes | filter: $ctrl.query">
+    <a href="#!/notes/{{note.id}}">
+      {{note.title}}
+    </a>
+  </li>
+</ul>
+<a href="#!/create" class="btn btn-primary">Добавить заметку</a>
