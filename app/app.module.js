@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('notebookApp', [
-    'ngRoute',
-    'noteList',
-    'noteItem',
-    'ngStorage',
-    'noteCreate'
+  'ngRoute',
+  'noteList',
+  'noteItem',
+  'ngStorage',
+  'noteCreate'
 ]);
