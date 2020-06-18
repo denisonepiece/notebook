@@ -18,7 +18,7 @@
     "pretest": "npm install"
   },
   "dependencies": {
-    "angular": "1.7.x",
+    "angular": "1.8.x",
     "angular-route": "^1.7.9",
     "ngstorage": "^0.3.11",
     "bootstrap": "3.3.x"
